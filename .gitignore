@@ -1,0 +1,5 @@
+coverage
+.bundle
+pkg
+vendor
+Gemfile.lock
