@@ -17,11 +17,12 @@ Jeweler::Tasks.new do |gem|
   gem.name = "fluent-plugin-mongo-typed"
   gem.homepage = "http://github.com/tarom/fluent-plugin-mongo-typed"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Typed mongo output plugin}
+  gem.description = %Q{Typed mongo output plugin}
   gem.email = "taro.toys@gmail.com"
-  gem.authors = ["Taro Moriya"]
+  gem.authors = ["MORIYA Taro"]
   # dependencies defined in Gemfile
+  gem.add_dependency "fluent-plugin-mongo", "~> 0.6.13"
 end
 Jeweler::RubygemsDotOrgTasks.new
 
@@ -38,7 +39,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "fluent-plugin-mongo-typed2 #{version}"
+  rdoc.title = "fluent-plugin-mongo-typed #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
