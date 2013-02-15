@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["MORIYA Taro"]
-  s.date = %q{2013-02-14}
+  s.date = %q{2013-02-15}
   s.description = %q{Typed mongo output plugin}
   s.email = %q{taro.toys@gmail.com}
   s.extra_rdoc_files = [
@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "fluent-plugin-mongo-typed.gemspec",
     "lib/fluent/mixin/mongo_typed_mixin.rb",
     "lib/fluent/plugin/out_mongo_replset_typed.rb",
     "lib/fluent/plugin/out_mongo_typed.rb",
