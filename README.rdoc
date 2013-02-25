@@ -1,7 +1,5 @@
 = fluent-plugin-mongo-typed
 
-== Configuration
-
 This plugin extended _mongo_ and _mongo_replset_ output plugins.
 
 == Installation

@@ -32,7 +32,7 @@ Gem::Specification.new do |s|
     "test/plugin/test_out_mongo_typed.rb"
   ]
   s.homepage = %q{http://github.com/tarom/fluent-plugin-mongo-typed}
-  s.licenses = ["MIT"]
+  s.licenses = ["Apache License 2.0"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.6.0}
   s.summary = %q{Typed mongo output plugin}

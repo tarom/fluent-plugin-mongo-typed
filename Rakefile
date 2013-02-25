@@ -16,13 +16,12 @@ Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "fluent-plugin-mongo-typed"
   gem.homepage = "http://github.com/tarom/fluent-plugin-mongo-typed"
-  gem.license = "MIT"
+  gem.license = "Apache License 2.0"
   gem.summary = %Q{Typed mongo output plugin}
   gem.description = %Q{Typed mongo output plugin}
   gem.email = "taro.toys@gmail.com"
   gem.authors = ["MORIYA Taro"]
   # dependencies defined in Gemfile
-  gem.add_dependency "fluent-plugin-mongo", "~> 0.6.13"
 end
 Jeweler::RubygemsDotOrgTasks.new
 
