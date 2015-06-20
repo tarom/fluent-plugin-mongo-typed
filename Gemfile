@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-gem "fluent-plugin-mongo", "~> 0.6.13", :require => false
+gem "fluent-plugin-mongo", ">= 0.6.13", :require => false
 
 group :development do
   gem "rdoc", "~> 3.12"
